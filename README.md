@@ -14,7 +14,7 @@
 - [x] **Hoisting** — var vs let/const, temporal dead zone
 - [x] `this` keyword — in normal function, arrow function, class method, event handler
 - [x] **Prototypal inheritance** — `__proto__`, prototype chain, `Object.create`
-- [ ] **Promises** — states (pending/fulfilled/rejected), `Promise.all` vs `allSettled` vs `race` vs `any`
+- [x] **Promises** — states (pending/fulfilled/rejected), `Promise.all` vs `allSettled` vs `race` vs `any`
 - [ ] `async/await` — how it desugars to promises, error handling with try/catch
 - [ ] **Debounce vs Throttle** — implement one from scratch on a whiteboard
 - [ ] **Currying / Higher-order functions**

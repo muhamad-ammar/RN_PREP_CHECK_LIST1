@@ -9,7 +9,7 @@
 
 ### JavaScript Fundamentals
 - [x] What is the **Event Loop**? Call stack, Web APIs, Callback queue, Microtask queue
-- [ ] **Microtask vs Macrotask** — why `Promise.then` runs before `setTimeout(fn, 0)`
+- [x] **Microtask vs Macrotask** — why `Promise.then` runs before `setTimeout(fn, 0)`
 - [ ] **Closures** — practical example (counter, memoization)
 - [ ] **Hoisting** — var vs let/const, temporal dead zone
 - [ ] `this` keyword — in normal function, arrow function, class method, event handler

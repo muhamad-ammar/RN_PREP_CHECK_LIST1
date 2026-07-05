@@ -22,7 +22,7 @@
 - [x] Event bubbling vs capturing, `stopPropagation` vs `preventDefault`
 - [x] `==` vs `===`, type coercion gotchas
 - [x] Map/Set vs Object/Array — when to use which
-- [ ] Generators (`function*`, `yield`) — at least know what they are
+- [x] Generators (`function*`, `yield`) — at least know what they are
 
 ### TypeScript (🔴 explicitly asked)
 - [ ] `interface` vs `type` — when to use which, declaration merging (interfaces only)

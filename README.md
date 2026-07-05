@@ -10,7 +10,7 @@
 ### JavaScript Fundamentals
 - [x] What is the **Event Loop**? Call stack, Web APIs, Callback queue, Microtask queue
 - [x] **Microtask vs Macrotask** — why `Promise.then` runs before `setTimeout(fn, 0)`
-- [ ] **Closures** — practical example (counter, memoization)
+- [x] **Closures** — practical example (counter, memoization)
 - [ ] **Hoisting** — var vs let/const, temporal dead zone
 - [ ] `this` keyword — in normal function, arrow function, class method, event handler
 - [ ] **Prototypal inheritance** — `__proto__`, prototype chain, `Object.create`

@@ -16,7 +16,7 @@
 - [x] **Prototypal inheritance** — `__proto__`, prototype chain, `Object.create`
 - [x] **Promises** — states (pending/fulfilled/rejected), `Promise.all` vs `allSettled` vs `race` vs `any`
 - [x] `async/await` — how it desugars to promises, error handling with try/catch
-- [ ] **Debounce vs Throttle** — implement one from scratch on a whiteboard
+- [x] **Debounce vs Throttle** — implement one from scratch on a whiteboard
 - [ ] **Currying / Higher-order functions**
 - [ ] Shallow copy vs deep copy (spread, `structuredClone`, JSON tricks and their limits)
 - [ ] Event bubbling vs capturing, `stopPropagation` vs `preventDefault`

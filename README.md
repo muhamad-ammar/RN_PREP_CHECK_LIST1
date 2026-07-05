@@ -21,7 +21,7 @@
 - [x] Shallow copy vs deep copy (spread, `structuredClone`, JSON tricks and their limits)
 - [x] Event bubbling vs capturing, `stopPropagation` vs `preventDefault`
 - [x] `==` vs `===`, type coercion gotchas
-- [ ] Map/Set vs Object/Array — when to use which
+- [x] Map/Set vs Object/Array — when to use which
 - [ ] Generators (`function*`, `yield`) — at least know what they are
 
 ### TypeScript (🔴 explicitly asked)

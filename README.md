@@ -18,7 +18,7 @@
 - [x] `async/await` — how it desugars to promises, error handling with try/catch
 - [x] **Debounce vs Throttle** — implement one from scratch on a whiteboard
 - [x] **Currying / Higher-order functions**
-- [ ] Shallow copy vs deep copy (spread, `structuredClone`, JSON tricks and their limits)
+- [x] Shallow copy vs deep copy (spread, `structuredClone`, JSON tricks and their limits)
 - [ ] Event bubbling vs capturing, `stopPropagation` vs `preventDefault`
 - [ ] `==` vs `===`, type coercion gotchas
 - [ ] Map/Set vs Object/Array — when to use which

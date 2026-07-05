@@ -12,8 +12,8 @@
 - [x] **Microtask vs Macrotask** — why `Promise.then` runs before `setTimeout(fn, 0)`
 - [x] **Closures** — practical example (counter, memoization)
 - [x] **Hoisting** — var vs let/const, temporal dead zone
-- [ ] `this` keyword — in normal function, arrow function, class method, event handler
-- [ ] **Prototypal inheritance** — `__proto__`, prototype chain, `Object.create`
+- [x] `this` keyword — in normal function, arrow function, class method, event handler
+- [x] **Prototypal inheritance** — `__proto__`, prototype chain, `Object.create`
 - [ ] **Promises** — states (pending/fulfilled/rejected), `Promise.all` vs `allSettled` vs `race` vs `any`
 - [ ] `async/await` — how it desugars to promises, error handling with try/catch
 - [ ] **Debounce vs Throttle** — implement one from scratch on a whiteboard

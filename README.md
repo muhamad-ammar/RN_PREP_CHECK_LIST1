@@ -29,8 +29,8 @@
 - [x] `any` vs `unknown` vs `never` vs `void`
 - [x] **Generics** — write a generic function/component (e.g., `function identity<T>(x: T): T`)
 - [x] **Utility types**: `Partial`, `Pick`, `Omit`, `Required`, `Record`, `Readonly`
-- [ ] Union types vs Intersection types
-- [ ] **Type narrowing** — `typeof`, `instanceof`, discriminated unions, type guards (`is` keyword)
+- [x] Union types vs Intersection types
+- [x] **Type narrowing** — `typeof`, `instanceof`, discriminated unions, type guards (`is` keyword)
 - [ ] Enums vs union of string literals (why many teams prefer literal unions)
 - [ ] Optional chaining `?.` and nullish coalescing `??`
 - [ ] `as const`, readonly arrays/tuples

@@ -31,53 +31,53 @@
 - [x] **Utility types**: `Partial`, `Pick`, `Omit`, `Required`, `Record`, `Readonly`
 - [x] Union types vs Intersection types
 - [x] **Type narrowing** — `typeof`, `instanceof`, discriminated unions, type guards (`is` keyword)
-- [ ] Enums vs union of string literals (why many teams prefer literal unions)
-- [ ] Optional chaining `?.` and nullish coalescing `??`
-- [ ] `as const`, readonly arrays/tuples
-- [ ] Function overloads
-- [ ] Decorators (basic awareness — used in NestJS/Angular)
-- [ ] How TS compiles down (`tsc`), difference between compile-time and runtime safety
-- [ ] Explain a time you caught a bug **because of** TypeScript
+- [x] Enums vs union of string literals (why many teams prefer literal unions)
+- [x] Optional chaining `?.` and nullish coalescing `??`
+- [x] `as const`, readonly arrays/tuples
+- [x] Function overloads
+- [x] Decorators (basic awareness — used in NestJS/Angular)
+- [x] How TS compiles down (`tsc`), difference between compile-time and runtime safety
+- [x] Explain a time you caught a bug **because of** TypeScript
 
 ---
 
 ## HOUR 2–3: MERN Stack Recall (🔴 — you learned this 4 yrs ago, refresh hard)
 
 ### MongoDB
-- [ ] Document vs Collection vs Database (compare to SQL table/row)
-- [ ] Schema design — embedding vs referencing (when to embed vs use ObjectId ref)
-- [ ] Mongoose basics — Schema, Model, `.populate()`
-- [ ] Indexing — why it speeds reads, tradeoff on writes
-- [ ] Aggregation pipeline — `$match`, `$group`, `$lookup` (just know the concept)
-- [ ] CRUD operations syntax refresh (`find`, `findOne`, `updateOne`, `insertMany`)
+- [x] Document vs Collection vs Database (compare to SQL table/row)
+- [x] Schema design — embedding vs referencing (when to embed vs use ObjectId ref)
+- [x] Mongoose basics — Schema, Model, `.populate()`
+- [x] Indexing — why it speeds reads, tradeoff on writes
+- [x] Aggregation pipeline — `$match`, `$group`, `$lookup` (just know the concept)
+- [x] CRUD operations syntax refresh (`find`, `findOne`, `updateOne`, `insertMany`)
 
 ### Express.js
-- [ ] What is **middleware**? `(req, res, next)` — order matters
-- [ ] Error-handling middleware (4-arg function signature)
-- [ ] Routing basics, route params vs query params vs body
-- [ ] `req`, `res` object — common methods (`res.status().json()`, `req.headers`)
-- [ ] CORS — what it is, why it exists, how to enable it in Express
-- [ ] Rate limiting (concept — e.g., `express-rate-limit`)
-- [ ] REST API design principles — resource naming, idempotency, status codes (200/201/204/400/401/403/404/409/422/500)
+- [x] What is **middleware**? `(req, res, next)` — order matters
+- [x] Error-handling middleware (4-arg function signature)
+- [x] Routing basics, route params vs query params vs body
+- [x] `req`, `res` object — common methods (`res.status().json()`, `req.headers`)
+- [x] CORS — what it is, why it exists, how to enable it in Express
+- [x] Rate limiting (concept — e.g., `express-rate-limit`)
+- [x] REST API design principles — resource naming, idempotency, status codes (200/201/204/400/401/403/404/409/422/500)
 
 ### Node.js
-- [ ] Node is single-threaded but non-blocking — **why** (libuv, thread pool)
-- [ ] `require` vs `import` (CommonJS vs ES Modules)
-- [ ] Streams (basic idea — reading large files without loading into memory)
-- [ ] Environment variables / `.env` and why secrets shouldn't be hardcoded
-- [ ] npm vs yarn vs pnpm (just be aware)
+- [x] Node is single-threaded but non-blocking — **why** (libuv, thread pool)
+- [x] `require` vs `import` (CommonJS vs ES Modules)
+- [x] Streams (basic idea — reading large files without loading into memory)
+- [x] Environment variables / `.env` and why secrets shouldn't be hardcoded
+- [x] npm vs yarn vs pnpm (just be aware)
 
 ### React (web, but concepts transfer 1:1 to RN)
-- [ ] **`useEffect`** — dependency array behavior, cleanup function, common bugs (stale closures, infinite loops)
-- [ ] `useState` — batching updates, functional updates `setX(prev => ...)`
-- [ ] `useMemo` vs `useCallback` — when each actually matters (don't over-optimize)
-- [ ] `useRef` — mutable value that doesn't trigger re-render, DOM/node access
-- [ ] Custom hooks — write one live if asked (e.g., `useDebounce`, `useFetch`)
-- [ ] Context API — when to use vs Redux, re-render pitfalls
-- [ ] Controlled vs uncontrolled components
-- [ ] Reconciliation & Virtual DOM — why `key` prop matters in lists
-- [ ] `React.memo` — shallow comparison, when it helps/hurts
-- [ ] Prop drilling and how Context/state managers solve it
+- [x] **`useEffect`** — dependency array behavior, cleanup function, common bugs (stale closures, infinite loops)
+- [x] `useState` — batching updates, functional updates `setX(prev => ...).`
+- [x] `useMemo` vs `useCallback` — when each actually matters (don't over-optimize)
+- [x] `useRef` — mutable value that doesn't trigger re-render, DOM/node access
+- [x] Custom hooks — write one live if asked (e.g., `useDebounce`, `useFetch`)
+- [x] Context API — when to use vs Redux, re-render pitfalls
+- [x] Controlled vs uncontrolled components
+- [x] Reconciliation & Virtual DOM — why `key` prop matters in lists
+- [x] `React.memo` — shallow comparison, when it helps/hurts
+- [x] Prop drilling and how Context/state managers solve it
 
 ---
 

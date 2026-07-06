@@ -25,7 +25,7 @@
 - [x] Generators (`function*`, `yield`) — at least know what they are
 
 ### TypeScript (🔴 explicitly asked)
-- [ ] `interface` vs `type` — when to use which, declaration merging (interfaces only)
+- [x] `interface` vs `type` — when to use which, declaration merging (interfaces only)
 - [ ] `any` vs `unknown` vs `never` vs `void`
 - [ ] **Generics** — write a generic function/component (e.g., `function identity<T>(x: T): T`)
 - [ ] **Utility types**: `Partial`, `Pick`, `Omit`, `Required`, `Record`, `Readonly`

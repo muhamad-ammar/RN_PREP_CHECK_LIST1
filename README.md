@@ -27,7 +27,7 @@
 ### TypeScript (🔴 explicitly asked)
 - [x] `interface` vs `type` — when to use which, declaration merging (interfaces only)
 - [x] `any` vs `unknown` vs `never` vs `void`
-- [ ] **Generics** — write a generic function/component (e.g., `function identity<T>(x: T): T`)
+- [x] **Generics** — write a generic function/component (e.g., `function identity<T>(x: T): T`)
 - [ ] **Utility types**: `Partial`, `Pick`, `Omit`, `Required`, `Record`, `Readonly`
 - [ ] Union types vs Intersection types
 - [ ] **Type narrowing** — `typeof`, `instanceof`, discriminated unions, type guards (`is` keyword)
